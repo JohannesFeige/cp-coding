@@ -1,0 +1,20 @@
+import React from 'react';
+import RussianPeasantMultiplication from './RussianPeasantMultiplication';
+
+const Russian: React.FC = () => {
+  return (
+    <div>
+      <h3>Russian Peasant Multiplication</h3>
+      <p>
+        The algorithm of the Russian Peasant Multiplication works as follows: you divide the left number by two as long
+        as you reach one. Decimal places get truncated. The right number is written next to the left one and is doubled
+        each time. At the end you have a table with two columns. Each number from the right column is crossed out where
+        the corresponding number on the left is even. The last step is to add all the numbers from the right column that
+        is not crossed out.
+      </p>
+      <RussianPeasantMultiplication />
+    </div>
+  );
+};
+
+export default Russian;

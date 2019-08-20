@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ocr should render 1`] = `
+<div>
+  <h3>
+    BankOCR
+  </h3>
+  <p>
+    Scans account numbers from ASCII file.
+  </p>
+  <BankOcr />
+</div>
+`;

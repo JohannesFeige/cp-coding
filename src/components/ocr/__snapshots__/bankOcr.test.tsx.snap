@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BankOcr should render 1`] = `
+<Fragment>
+  <div>
+    <input
+      onChange={[Function]}
+      type="file"
+    />
+  </div>
+  <div>
+    <span>
+      Raw:
+    </span>
+    <pre />
+  </div>
+  <div>
+    <span>
+      Result: 
+    </span>
+    <span />
+  </div>
+</Fragment>
+`;

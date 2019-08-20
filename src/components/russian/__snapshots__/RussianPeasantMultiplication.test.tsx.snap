@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RussianPeasantMultiplication should render 1`] = `
+<Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-row"
+    >
+      <div
+        className="form-group col-md-2"
+      >
+        <input
+          className="form-control"
+          onChange={[Function]}
+          placeholder="X"
+          type="number"
+          value={0}
+        />
+      </div>
+      *
+      <div
+        className="form-group col-md-2"
+      >
+        <input
+          className="form-control"
+          onChange={[Function]}
+          placeholder="Y"
+          type="number"
+          value={0}
+        />
+      </div>
+      =
+      <div
+        className="form-group col-md-2"
+      >
+        <span
+          className="form-control"
+          id="result"
+        >
+          0
+        </span>
+      </div>
+    </div>
+  </form>
+</Fragment>
+`;

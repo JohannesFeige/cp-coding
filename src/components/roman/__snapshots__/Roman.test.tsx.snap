@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Roman should render 1`] = `
+<div>
+  <h3>
+    To Roman Numerals
+  </h3>
+  <p>
+    The input will be translated to Roman Numerals
+  </p>
+  <RomanNumeral />
+</div>
+`;

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RomanNumeral should render 1`] = `
+<div>
+  <div
+    className="input-group mb-3"
+  >
+    <div
+      className="input-group-prepend"
+    >
+      <span
+        className="input-group-text"
+      >
+        Decimal Value
+      </span>
+    </div>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      placeholder="Decimal Value"
+      type="number"
+    />
+  </div>
+  <span
+    id="result"
+  >
+    Roman Numeral: 
+  </span>
+</div>
+`;
